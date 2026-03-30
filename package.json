@@ -1,0 +1,29 @@
+{
+  "name": "json-to-types",
+  "version": "1.0.0",
+  "description": "Convert JSON to TypeScript types and Zod schemas - CLI + web interface",
+  "main": "dist/index.js",
+  "bin": {
+    "json-to-types": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "serve": "node dist/index.js --serve",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "json",
+    "typescript",
+    "zod",
+    "schema",
+    "generator",
+    "cli"
+  ],
+  "author": "Zakaria Kone",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.19.37",
+    "typescript": "^5.9.3"
+  }
+}
